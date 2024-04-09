@@ -178,6 +178,20 @@ body main section.contact div.right p {
 body main section.contact div.right p:hover {
   background-color: rgba(184, 255, 222, 0.5);
 }
+body main section.contact div.right a {
+  color: white;
+  background-color: rgb(54, 212, 138);
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+body main section.contact div.right a:hover {
+  transform: scale(1.2);
+}
 body main section.contact div.right ul li {
   transition: all 0.5s ease;
 }
